@@ -1,0 +1,60 @@
+body{
+  background-color:rgb(9,43,64);
+  
+}
+a:link{
+  text-decoration: none;
+}
+.df{
+  text-align: center;
+  padding: 40px;
+}
+.random a{
+  
+/*   width: 400px; */
+  margin-bottom:30px;
+  font-size:1.4em;
+  Cursor:pointer;
+  color:white;
+}
+i{
+  color: rgb(217,111,50);
+  Cursor:pointer;
+}
+/* .search{
+  margin: 50px auto;
+  height: 100px;
+  width: 200px;
+  
+} */
+
+#keyword{
+  width: 300px;
+  height:40px;
+  border-radius: 20px;
+  border:3px solid rgb(217,111,50);
+  outline:none;
+  text-indent:15px;
+}
+.resultList{
+  text-align: center;
+  color: black;
+}
+li{
+/*   width:1300px; */
+/*   height: 50px; */
+  margin:5px auto;
+  text-align: left;
+/*   background-color: white; */
+  padding: 5px;
+/*   display:invisible; */
+}
+li a{
+  font-weight:800;
+  font-size:1.2em;
+  color:black;
+  padding-bottom: 10px;
+}
+li:hover{
+ border-left:5px solid rgb(217,111,50); 
+}
